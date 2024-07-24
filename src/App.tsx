@@ -6,8 +6,15 @@ import About from './pages/About';
 import Header from './components/Header/Header';
 
 function App() {
+  const basename =
+    process.env.NODE_ENV === 'production'
+      ? process.env.REACT_APP_BASENAME
+      : '/';
+
+  console.log('basename', basename);
+
   return (
-    <Router basename='/vite-react-ts-boilerplate/'>
+    <Router basename={basename}>
       <div className='min-h-screen bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark'>
         <div className='mb-10'>
           <Header />

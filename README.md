@@ -31,7 +31,6 @@ This project is a boilerplate setup using Vite, React, TypeScript, Tailwind CSS,
    git clone https://github.com/Sivamani-18/vite-react-ts-boilerplate.git
    cd vite-react-ts-boilerplate
 
-   App.tsx change basename "/vite-react-ts-boilerplate/" to "/" in local
    ```
 
 2. Install dependencies:
