@@ -7,7 +7,7 @@ import Header from './components/Header/Header';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/vite-react-ts-boilerplate'>
       <div className='min-h-screen bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark'>
         <div className='mb-10'>
           <Header />
