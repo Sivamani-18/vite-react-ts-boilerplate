@@ -22,9 +22,6 @@ jobs:
         run: npm install
 
       - name: Build project
-        env:
-          REACT_APP_BASENAME: /vite-react-ts-boilerplate/
-          NODE_ENV: production
         run: npm run build:production
 
       - name: Deploy to GitHub Pages

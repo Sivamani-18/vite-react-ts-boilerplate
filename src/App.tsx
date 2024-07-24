@@ -7,9 +7,7 @@ import Header from './components/Header/Header';
 
 function App() {
   const basename =
-    process.env.NODE_ENV === 'production'
-      ? process.env.REACT_APP_BASENAME
-      : '/';
+    process.env.NODE_ENV === 'production' ? process.env.VITE_APP_BASENAME : '/';
 
   console.log('basename', basename);
 
