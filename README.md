@@ -2,6 +2,9 @@
 
 This project is a boilerplate setup using Vite, React, TypeScript, Tailwind CSS, react-router-dom for routing, and a custom light/dark theme.
 
+
+## [Demo](https://sivamani-18.github.io/vite-react-ts-boilerplate/)
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
