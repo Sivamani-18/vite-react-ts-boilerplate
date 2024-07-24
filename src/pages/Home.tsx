@@ -23,7 +23,7 @@ const Home: React.FC = () => {
         <div className='card mt-6'>
           <button
             onClick={() => setCount((count) => count + 1)}
-            className='btn text-text-dark dark:text-text-light'
+            className='btn text-text-light'
           >
             count is {count}
           </button>
