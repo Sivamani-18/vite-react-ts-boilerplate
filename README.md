@@ -2,6 +2,11 @@
 
 This project is a boilerplate setup using Vite, React, TypeScript, Tailwind CSS, react-router-dom for routing, and a custom light/dark theme.
 
+
+## Demo
+
+- <a href="https://sivamani-18.github.io/vite-react-ts-boilerplate/" target="_blank">Example Demo Link</a>
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
@@ -24,7 +29,9 @@ This project is a boilerplate setup using Vite, React, TypeScript, Tailwind CSS,
 
    ```sh
    git clone https://github.com/Sivamani-18/vite-react-ts-boilerplate.git
-   cd your-repo-name
+   cd vite-react-ts-boilerplate
+
+   App.tsx change basename "/vite-react-ts-boilerplate/" to "/" in local
    ```
 
 2. Install dependencies:
