@@ -152,7 +152,7 @@ This project uses `react-router-dom` for routing. The `Header` component contain
 ### Adding New Routes
 
 1. Create a new page component in the `src/pages` directory.
-2. Import the new component in `App.tsx` and add a new `<Route>` element.
+2. Import the new component in `App.tsx` and add a new `<Route>` elements.
 
 ```tsx
 import NewPage from './pages/NewPage';
