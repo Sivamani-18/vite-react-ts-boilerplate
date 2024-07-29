@@ -30,5 +30,5 @@ jobs:
         with:
           github_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./dist
-          user_name: github-actions
-          user_email: github-actions@github.com
+          user_name: 'Sivamani-18'
+          user_email: 'siva@mindwaveventures.com'
